@@ -1,0 +1,114 @@
+.max-width {
+    text-align: center;
+    background-image:url(https://images8.alphacoders.com/112/thumb-1920-1129303.jpg) ;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    animation: neon 3s alternate infinite ease-in-out;
+}
+
+
+.titulo {
+    text-align: center;
+    color: rgb(16, 255, 255);
+    --cor-neon: #0037ce;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.paragrafo {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    opacity: 70%;
+    margin: 10px 100px 10px 100px; 
+}
+
+.subtitulo {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(16, 255, 255);
+    --cor-neon: #0037ce;
+    opacity: 70%;
+    margin: 0px 580px 0px 580px; 
+}
+
+#introdução {
+    font-size: 30px;
+    color: azure;
+    background-color: black;
+    opacity: 70%;
+    margin: 0px 100px 0px 100px; 
+}
+
+.p1 {
+    font-size: 20px;
+    color: azure;
+    background-color: black;
+    opacity: 70%;
+    margin: 10px 220px 10px 220px; 
+    
+}
+
+.p2 {
+    font-size: 20px;
+    color: azure;
+    background-color: black;
+    opacity: 70%;
+    margin :0px 545px 0px 545px; 
+}
+
+.p3 {
+    font-size: 20px;
+    color: azure;
+    background-color: black;
+    opacity: 70%;
+    margin: 0px 530px 0px 530px; 
+}
+
+.btn {
+    text-decoration: none;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 10px;
+    margin: 30px 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: black;
+    color: rgb(16, 255, 255);
+    opacity: 75%;
+}
+
+.btn:hover {
+    font-size: 25px;
+    background-color: rgb(131, 131, 131);
+}
+
+@keyframes neon {
+    from{
+        filter: drop-shadow(0 0 0 var(--cor-neon));
+    }
+    to {
+        filter: drop-shadow(0 0 30px var(--cor-neon));
+    }
+}
