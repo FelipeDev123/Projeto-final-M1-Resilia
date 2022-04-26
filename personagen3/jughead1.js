@@ -3,13 +3,13 @@ function verificaResposta(respostaCerta, proximaFase) {
     
     var tentativas = 1;
     while (tentativas >= 0) {
-        var resposta = prompt("");
+        var resposta = prompt("Jughead então:");
     if(resposta.toLowerCase() === respostaCerta) {
-        alert("");
+        alert("Isso mesmo, Jughead vai para a casa do lago para ver se Veronica está lá, clique em ok e vá para a fase 2");
         location.href = proximaFase
         break;
     } else {
-        alert(`Ops, resposta errada, você  tem ${tentativas} chance`);
+        alert(`Ops, resposta errada, você só tem ${tentativas} chance`);
         location.href = "../gameover/gameover.html"
         tentativas--;
         break
