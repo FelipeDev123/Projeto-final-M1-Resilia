@@ -5,7 +5,7 @@ function verificaResposta(respostaCerta, proximaFase) {
     while (tentativas >= 0) {
         var resposta = prompt("Jughead rapidamente:");
     if(resposta.toLowerCase() === respostaCerta) {
-        alert("Muito bem, Jughead começa a seguir as pegadas que podem levar até a Veronica, clique em ok e vá para a fase 3");
+        alert("Muito bem, Jughead começa a seguir as pegadas que podem levar até a Veronica, clique em Ok e vá para a fase 3");
         location.href = proximaFase
         break;
     } else {

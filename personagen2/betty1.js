@@ -5,7 +5,7 @@ function verificaResposta(respostaCerta, proximaFase) {
     while (tentativas >= 0) {
         var resposta = prompt("");
     if(resposta.toLowerCase() === respostaCerta) {
-        alert("Isso Betty vai imediatamente na floresta atrás de Veronica, clique em ok e vá para a fase 2");
+        alert("Isso Betty vai imediatamente na floresta atrás de Veronica, clique em Ok e vá para a fase 2");
         location.href = proximaFase
         break;
     } else {
