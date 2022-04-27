@@ -5,7 +5,7 @@ function verificaResposta(respostaCerta) {
     while (tentativas >= 0) {
         var resposta = prompt("Veronica responde:");
     if(resposta.toLowerCase() === respostaCerta) {
-        alert("Parabéns você achou Veronica!,clique em Ok va para a parte final");
+        alert("Parabéns você achou Veronica!,clique em Ok e vá para a parte final");
         location.href = "../Fim/fim.html"
         break;
     } else {
